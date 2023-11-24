@@ -1,0 +1,1 @@
+# jujutsu_kaisen_wiki_spinoff
