@@ -16,10 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
 # pointing to the url configs of a folder name outside of the main url config
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('inner/', include('inner.urls'))
+    path('inner/', include('inner.urls')),
+    path('__debug__/', include("debug_toolbar.urls")),
 ]
