@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+# If there is an import error for Django Shortcuts, click and select the interpreter that says pip env
+
+
